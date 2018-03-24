@@ -9,7 +9,7 @@ import com.laba.credit.util.SerializationUtils;
  *
  */
 public class EmployeeServiceImpl implements EmployeeService {
-    private static final String FILE = "EmployeeServiceImpl";
+    private static final String FILE = "SerializedEmployees.dat";
 
     private HashSet<Employee> employees = new HashSet<Employee>();
 
