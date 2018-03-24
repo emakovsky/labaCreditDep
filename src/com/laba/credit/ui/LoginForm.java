@@ -36,7 +36,7 @@ public class LoginForm {
                 for (Employee employee: ServiceLocator.getInstance().getEmployeeService().getAll()) {
                     System.out.println(employee);
                 }
-
+/// new code
 
                 if (loginSucceeded) {
                     frame.dispose();
