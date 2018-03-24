@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.laba.credit.ui.LoginForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1f103" class="javax.swing.JEditorPane" binding="loginEditorPane" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="login"/>
+        </properties>
+      </component>
+      <component id="2de75" class="javax.swing.JEditorPane" binding="passwordEditorPane" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value=""/>
+          <toolTipText value="password"/>
+        </properties>
+      </component>
+      <component id="55388" class="javax.swing.JButton" binding="loginButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Login"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
